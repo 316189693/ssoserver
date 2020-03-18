@@ -1,0 +1,13 @@
+#开发配置
+spring:
+  profiles: dev
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/sso
+    username: root
+    password: qwer1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+     database: 0
+     host: localhost
+     port: 6379
